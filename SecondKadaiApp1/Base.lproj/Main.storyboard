@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8S-cx-4kh">
-                                <rect key="frame" x="20.666666666666657" y="144" width="334" height="36"/>
+                                <rect key="frame" x="40" y="144" width="334" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="334" id="k9y-kG-GeM"/>
                                     <constraint firstAttribute="height" constant="36" id="ugN-Z6-eNa"/>
@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iD-Z8-Oyo">
-                                <rect key="frame" x="162" y="420" width="51" height="42"/>
+                                <rect key="frame" x="181.5" y="420" width="51" height="42"/>
                                 <color key="backgroundColor" red="1" green="0.56883954110000001" blue="0.50860976219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Ztc-Ze-IzL"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここに名前を入力してください" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yi3-0o-2W1">
-                                <rect key="frame" x="31" y="280" width="313.33333333333331" height="40"/>
+                                <rect key="frame" x="50.5" y="280" width="313" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="4Hf-7S-Fid"/>
                                     <constraint firstAttribute="width" constant="313.33333333333331" id="egF-5i-LS0"/>
@@ -75,21 +75,11 @@
             <objects>
                 <viewController id="bgD-bt-XgM" customClass="NamehyouziViewController" customModule="SecondKadaiApp1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bhs-e5-x5x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKF-mK-4fh">
-                                <rect key="frame" x="152" y="100" width="71" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="QNE-rr-AgL"/>
-                                    <constraint firstAttribute="width" constant="71" id="aRG-oT-c2s"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBq-gM-M98">
-                                <rect key="frame" x="162" y="236" width="51" height="42"/>
+                                <rect key="frame" x="181.5" y="336" width="51" height="42"/>
                                 <color key="backgroundColor" red="1" green="0.86126037209999995" blue="0.68355283180000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="3Us-AA-1cP"/>
@@ -103,12 +93,31 @@
                                     <segue destination="dRj-aF-vc2" kind="unwind" unwindAction="unwind:" id="zwc-in-g4f"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKF-mK-4fh">
+                                <rect key="frame" x="50" y="150" width="314" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="QNE-rr-AgL"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="KBq-gM-M98" firstAttribute="top" secondItem="DKF-mK-4fh" secondAttribute="bottom" constant="100" id="22J-bg-9xh"/>
+                            <constraint firstItem="kgW-OD-MEk" firstAttribute="trailing" secondItem="DKF-mK-4fh" secondAttribute="trailing" constant="50" id="5Yz-r7-XPC"/>
+                            <constraint firstItem="DKF-mK-4fh" firstAttribute="leading" secondItem="kgW-OD-MEk" secondAttribute="leading" constant="50" id="BuP-9I-bmx"/>
+                            <constraint firstItem="DKF-mK-4fh" firstAttribute="top" secondItem="kgW-OD-MEk" secondAttribute="top" constant="150" id="JXZ-xJ-MjM"/>
                             <constraint firstItem="KBq-gM-M98" firstAttribute="centerX" secondItem="bhs-e5-x5x" secondAttribute="centerX" id="Mjz-L1-XTO"/>
-                            <constraint firstItem="DKF-mK-4fh" firstAttribute="top" secondItem="kgW-OD-MEk" secondAttribute="top" constant="100" id="ahX-I0-qmi"/>
+                            <constraint firstItem="DKF-mK-4fh" firstAttribute="centerX" secondItem="bhs-e5-x5x" secondAttribute="centerX" id="mVB-ya-oFM"/>
+                            <constraint firstItem="KBq-gM-M98" firstAttribute="top" secondItem="DKF-mK-4fh" secondAttribute="bottom" constant="150" id="q9Q-a2-MIz"/>
                             <constraint firstItem="DKF-mK-4fh" firstAttribute="centerX" secondItem="bhs-e5-x5x" secondAttribute="centerX" id="wHR-eX-YYl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kgW-OD-MEk"/>
@@ -121,7 +130,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXU-cp-JLU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="dRj-aF-vc2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="863.768115942029" y="113.83928571428571"/>
+            <point key="canvasLocation" x="863.20000000000005" y="113.79310344827587"/>
         </scene>
     </scenes>
 </document>

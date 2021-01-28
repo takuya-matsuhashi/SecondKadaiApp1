@@ -12,11 +12,13 @@ class NamehyouziViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
-    var name:String = ""
+    var name:String = String()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = name
+        
+        label.text = "こんにちわ、\(name) さん"
 
         // Do any additional setup after loading the view.
     }

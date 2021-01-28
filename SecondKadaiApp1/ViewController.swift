@@ -26,11 +26,8 @@ class ViewController: UIViewController {
         
     let resultViewController:NamehyouziViewController = segue.destination as! NamehyouziViewController
         
-    // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
-        
+
         resultViewController.name = textfield.text!
-    
-    
 
     }
 }
